@@ -1,5 +1,5 @@
 import {
-  Component, Input, Output, EventEmitter, ChangeDetectionStrategy
+  Component, Input, Output, EventEmitter
 } from '@angular/core';
 
 @Component({
@@ -59,7 +59,6 @@ import {
   host: {
     class: 'datatable-pager'
   },
-  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class DataTablePagerComponent {
 

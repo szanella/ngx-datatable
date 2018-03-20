@@ -1,6 +1,6 @@
 import {
   Component, Output, EventEmitter, Input, HostBinding, ChangeDetectorRef,
-  ViewChild, OnInit, OnDestroy, ChangeDetectionStrategy
+  ViewChild, OnInit, OnDestroy
 } from '@angular/core';
 import { translateXY, columnsByPin, columnGroupWidths, RowHeightCache } from '../../utils';
 import { SelectionType } from '../../types';
@@ -84,7 +84,6 @@ import { MouseEvent } from '../../events';
       </div>
     </datatable-selection>
   `,
-  changeDetection: ChangeDetectionStrategy.OnPush,
   host: {
     class: 'datatable-body'
   }

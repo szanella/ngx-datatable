@@ -1,6 +1,6 @@
 import {
   Component, Input, HostBinding, ElementRef, Output, KeyValueDiffers, KeyValueDiffer,
-  EventEmitter, HostListener, ChangeDetectionStrategy, ChangeDetectorRef, DoCheck, SkipSelf
+  EventEmitter, HostListener, ChangeDetectorRef, DoCheck, SkipSelf
 } from '@angular/core';
 
 import {
@@ -11,7 +11,6 @@ import { MouseEvent, KeyboardEvent, Event } from '../../events';
 
 @Component({
   selector: 'datatable-body-row',
-  changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <div
       *ngFor="let colGroup of _columnsByPin; let i = index; trackBy: trackByGroups"

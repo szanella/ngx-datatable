@@ -147,7 +147,6 @@ var DataTablePagerComponent = /** @class */ (function () {
             host: {
                 class: 'datatable-pager'
             },
-            changeDetection: core_1.ChangeDetectionStrategy.OnPush
         })
     ], DataTablePagerComponent);
     return DataTablePagerComponent;

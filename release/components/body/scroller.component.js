@@ -97,8 +97,7 @@ var ScrollerComponent = /** @class */ (function () {
             template: "\n    <ng-content></ng-content>\n  ",
             host: {
                 class: 'datatable-scroll'
-            },
-            changeDetection: core_1.ChangeDetectionStrategy.OnPush
+            }
         }),
         __metadata("design:paramtypes", [core_1.NgZone, core_1.ElementRef, core_1.Renderer2])
     ], ScrollerComponent);

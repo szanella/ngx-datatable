@@ -1,12 +1,11 @@
 import {
   Component, Input, Output, EventEmitter, HostListener, DoCheck,
-  ChangeDetectionStrategy, KeyValueDiffer, ChangeDetectorRef, KeyValueDiffers
+  KeyValueDiffer, ChangeDetectorRef, KeyValueDiffers
 } from '@angular/core';
 import { MouseEvent } from '../../events';
 
 @Component({
   selector: 'datatable-row-wrapper',
-  changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <div 
       *ngIf="groupHeader && groupHeader.template"

@@ -100,7 +100,6 @@ import { BehaviorSubject } from 'rxjs/BehaviorSubject';
       </datatable-footer>
     </div>
   `,
-  changeDetection: ChangeDetectionStrategy.OnPush,
   encapsulation: ViewEncapsulation.None,
   styleUrls: ['./datatable.component.scss'],
   host: {
